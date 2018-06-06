@@ -1,8 +1,24 @@
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
+* Copyright 2018, Nahom Abi
 * www.getskeleton.com
 * Free to use under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
 */
+
+@import "base/normalize";
+@import "base/styles";
+@import "base/spacing";
+@import "base/utilities";
+
+@import "modules/grid";
+@import "modules/typography";
+@import "modules/link";
+@import "modules/button";
+@import "modules/form";
+@import "modules/list";
+@import "modules/code";
+@import "modules/table";
+@import "modules/media-queries";
