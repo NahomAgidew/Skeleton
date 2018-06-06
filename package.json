@@ -1,0 +1,25 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahomAgidew/Skeleton.git"
+  },
+  "author": "Nahom Abi, Dave Gamache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NahomAgidew/Skeleton/issues"
+  },
+  "homepage": "https://github.com/NahomAgidew/Skeleton#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
