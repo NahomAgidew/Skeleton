@@ -43,6 +43,47 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 
 The above list is non-exhaustive. Skeleton works perfectly with almost all older versions of the browsers above, though IE certainly has large degradation prior to IE9.
 
+## Is Skeleton for you?
+You should use Skeleton if you're embarking on a smaller project or just don't feel like you need all the utility of larger frameworks. Skeleton only styles a handful of standard HTML elements and includes a grid, but that's often more than enough to get started.
+
+## Documentation
+
+### The Grid
+The grid is a 12-column fluid grid with a max width of 960px, that shrinks with the browser/device at smaller sizes. The max width can be changed with one line of CSS and all columns will resize accordingly. The syntax is simple and it makes coding responsive much easier.
+
+```
+<!-- .container is main centered wrapper -->
+<div class="container">
+
+  <!-- columns should be the immediate child of a .row -->
+  <div class="row">
+    <div class="one column">One</div>
+    <div class="eleven columns">Eleven</div>
+  </div>
+
+  <!-- just use a number and class 'column' or 'columns' -->
+  <div class="row">
+    <div class="two columns">Two</div>
+    <div class="ten columns">Ten</div>
+  </div>
+
+  <!-- there are a few shorthand columns widths as well -->
+  <div class="row">
+    <div class="one-third column">1/3</div>
+    <div class="two-thirds column">2/3</div>
+  </div>
+  <div class="row">
+    <div class="one-half column">1/2</div>
+    <div class="one-half column">1/2</div>
+  </div>
+
+</div>
+
+<!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
+
+```
+### Typography
+
 
 ## License
 
