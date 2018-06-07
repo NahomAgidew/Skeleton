@@ -288,4 +288,5 @@ Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and desi
 
 ## Acknowledgement
 
-Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
+Skeleton was originally created by [Dave Gamache](https://twitter.com/dhg) for a better web.
+This repository is maintained by [Nahom Abi](https://twitter.com/mdnahom)
